@@ -17,7 +17,7 @@
 ## Usage
 - GET books/ list of all books with posibility to filter and sort e.g. books/?publishedDate=1864 or books/?sort=publishedDate 
   or books/?publishedDate=1864&sort=-title
-- GET book<book_id> e.g. books/63RaAAAAcAAJ
+- GET books/<book_id> e.g. books/63RaAAAAcAAJ
 - POST db/ with request body {"q": "_query to search in google api_" for inserting returned data to database
 
 ## Technologies
