@@ -1,1 +1,1 @@
-web: gunicorn djangoAPIBooks.wsgi
+web: gunicorn djangoAPIBooks.wsgi --log-file -
