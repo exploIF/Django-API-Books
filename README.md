@@ -22,6 +22,7 @@
 * requests version 2.25.1
 
 ## Features
+* Deployed on heroku: https://djangoapibooks.herokuapp.com/swagger/
 * Downloading data about books from the website
 * Adding downloaded data to the database
 * Filtering and sorting data
