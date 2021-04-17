@@ -1,5 +1,5 @@
 # Books API
-> Designing and creating a Book API based on data from the website: https://www.googleapis.com/books/v1/volumes?q=
+> Books API based on data from: https://www.googleapis.com/books/v1/volumes?q=
 
 ## Table of contents
 * [General info](#general-info)
@@ -11,9 +11,7 @@
 * [Contact](#contact)
 
 ## General info
-- downloading data and entering them into your own database,
-- downloading data from title, authors, publish_date and categories,
-- filtering and sorting data stored in database
+Django Rest Framework API providing informations about book's title, author, category, publishing date etc. Based on googleapis.com/books. 
 
 ## Usage
 - GET books/ list of all books with posibility to filter and sort e.g. books/?publishedDate=1864 or books/?sort=publishedDate 
@@ -25,15 +23,16 @@
 * Django version 3.2
 * Django filter version 2.4
 * Django Rest Framework version 3.12.4
+* PostgreSQL version 13.0
 * drf-yasg version 1.20
 * requests version 2.25.1
 
 ## Features
 * Deployed on heroku: https://djangoapibooks.herokuapp.com/swagger/
 * Downloading data about books from the website
-* Adding downloaded data to the database
+* Adding downloaded data to the PostgreSQL database
 * Filtering and sorting data
-* Swagger and redoc ui
+* Swagger and Redoc ui
 
 To-do list:
 * Adding an authentication method
