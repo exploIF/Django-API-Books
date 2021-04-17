@@ -3,6 +3,7 @@
 
 ## Table of contents
 * [General info](#general-info)
+* [General Usage](#usage)
 * [Technologies](#technologies)
 * [Features](#features)
 * [Status](#status)
